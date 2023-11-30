@@ -1,0 +1,21 @@
+.overlay_button {
+	margin-top: 1rem;
+	width: 12rem;
+	background-color: $color-1;
+	border-radius: 0.5rem;
+	padding: 1rem 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-weight: 500;
+	user-select: none;
+	transition: 0.05s;
+
+	&:hover {
+		cursor: pointer;
+	}
+
+	&:active {
+		transform: scale(0.98);
+	}
+}
