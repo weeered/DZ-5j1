@@ -92,8 +92,8 @@ main {
 				}
 
 				& img {
-					width: 1.2rem;
-					filter: brightness(60%);
+					width: 1.5rem;
+					filter: brightness(70%);
 				}
 			}
 		}
@@ -110,6 +110,17 @@ main {
 	gap: 2rem;
 	width: 70vw;
 	margin: auto;
+}
+
+.invisible_text {
+	position: absolute;
+	font-size: 10rem;
+	top: 96rem;
+	left: 50%;
+	transform: translate(-50%);
+	z-index: -1;
+	color: #ffffff;
+	filter: brightness(98%);
 }
 
 .image_container {
